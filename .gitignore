@@ -1,0 +1,23 @@
+# 대회 데이터 (재배포 금지)
+data/*
+!data/README.md
+
+# 모델 가중치 / 출력
+model/*
+!model/README.md
+*.pkl
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+__MACOSX/
+
+# Secrets
+.env
